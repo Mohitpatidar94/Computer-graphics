@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Computer-graphics/' : '/',
+  base: command === 'build' && process.env.VERCEL !== '1' ? '/Computer-graphics/' : '/',
   plugins: [react()],
   build: {
     rollupOptions: {
