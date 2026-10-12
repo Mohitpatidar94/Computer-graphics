@@ -1,7 +1,7 @@
 import {
   __commonJS,
   require_react
-} from "./chunk-2YIMICFJ.js";
+} from "./chunk-JRE55LYH.js";
 
 // node_modules/react-is/cjs/react-is.development.js
 var require_react_is_development = __commonJS({
